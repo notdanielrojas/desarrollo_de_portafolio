@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Daniel Rojas</title>
+    <!--  Bootstrap v5.3.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2d17dbbe16.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/CSS/styles.css" />
+  </head>
+  <body>
+    <!-- Comienzo de NavBar -->
+    <div id="home">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/img/logo-yellow.png"
+              alt="Logo de Daniel Rojas"
+              width="200px"
+          /></a>
+          <button
+            class="navbar-toggler ms-auto hidden-sm-up float-xs-right"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bg-warning"></span>
+          </button>
+          <div class="menu">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a
+                  class="nav-link active text-white fs-4"
+                  aria-current="page"
+                  href="#home"
+                  >Inicio</a
+                >
+                <a class="nav-link text-white fs-4" href="#about">Acerca</a>
+                <a class="nav-link text-white fs-4" href="#portfolio"
+                  >Portafolio</a
+                >
+                <a class="nav-link text-white fs-4" href="#form">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Fin de NavBar -->
+    <!-- Comienzo de Encabezado -->
+    <header id="header">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="./assets/img/banner.png" alt="..." />
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="header-text">Full Stack JavaScript Developer</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="subheader-text">Hola, soy <span>Daniel</span> Rojas</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Fin de Encabezado -->
+    <!-- Comienzo de Acerca -->
+    <main>
+      <div id="about">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <img
+                src="./assets/img/about.jpg"
+                alt="Imagen de Daniel Rojas"
+                class="pb-5"
+                width="80%"
+              />
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <h1>Acerca de mi</h1>
+              <p>
+                Comunicador Audiovisual titulado de UNIACC con 10 años de
+                experiencia en empresas del rubro del entretenimiento,
+                educación, construcción y salud. Me especialicé en Dirección de
+                Fotografía, Cámara y Edición. He desempeñado mis labores en
+                programas de viajes para TV y YouTube, web series, videoclips y
+                videos corporativos. He llevado a cabo mis funciones en Chile,
+                Canadá, España, Portugal, Marruecos y Francia. Gracias a mi
+                residencia en Canadá durante algunos años, tengo un manejo
+                avanzado del inglés.
+                <br />Actualmente, estoy estudiando Desarrollo FullStack
+                Developer JavaScript en Academia LATAM.
+              </p>
+              <div class="mytabs">
+                <input
+                  type="radio"
+                  id="educacion"
+                  name="mytabs"
+                  checked="checked"
+                />
+                <label for="educacion">Educación</label>
+                <div class="tab text-start">
+                  <ul>
+                    <li>
+                      <span>2023 - Actual</span><br />Desarrollador Fullstack
+                      JavaScript
+                    </li>
+                    <li>
+                      <span>2009 - 2015</span><br />Comunicación Audiovisual y/o
+                      Multimedia, Mención Cine
+                    </li>
+                  </ul>
+                </div>
+                <input type="radio" id="experiencia" name="mytabs" />
+                <label for="experiencia">Experiencia</label>
+                <div class="tab text-start">
+                  <ul>
+                    <li>
+                      <span>Feb. 2023 - Jun. 2023</span><br />Realizador
+                      Audiovisual en Vidachiropractic
+                    </li>
+                    <li>
+                      <span>Sep. 2018 - Abr.2022</span><br />Realizador
+                      Audiovisual en Flip.tools
+                    </li>
+                    <li>
+                      <span>Oct. 2019 - Oct.2019</span><br />Realizador
+                      Audiovisual en Webserie "Pesca Arriba, Mar Adentro"
+                    </li>
+                    <li>
+                      <span>Feb. 2018 - Feb.2018</span><br />Realizador
+                      Audiovisual en "Art Battle Vancouver 2018"
+                    </li>
+                    <li>
+                      <span>Ene. 2018 - May.2018</span><br />Realizador
+                      Audiovisual en Kleiner Services
+                    </li>
+                    <li>
+                      <span>Dic. 2017 - Dic. 2017</span><br />Realizador
+                      Audiovisual en Fairmount Hotel
+                    </li>
+                    <li>
+                      <span>Ago. 2017 - Ago.2017</span><br />Realizador
+                      Audiovisual en Videoclip "Starring in a movie" de Greg
+                      Beamish
+                    </li>
+                    <li>
+                      <span>Nov. 2016 - Dic.2016</span><br />Realizador
+                      Audiovisual en la segunda temporada de "Viajeras sin
+                      Fronteras" de UCV
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin de Acerca -->
+      <!-- Comienzo de Portafolio -->
+      <div id="portfolio">
+        <div class="container text-center">
+          <div class="texto-portafolio">
+            <h1>Portafolio</h1>
+            <p>
+              Mis mejores trabajos del Módulo I - Introducción al Desarrollo Web
+              de Desafío LATAM.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 pb-5">
+              <div class="card" style="width: 100%">
+                <a
+                  href="https://notdanielrojas.github.io/construyendo_un_landing_page/"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/landing_page.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Landing Page</h5>
+                  <p class="card-text">
+                    Desafío en el cual todos los requerimientos fueron cumplidos
+                    de forma satisfactoria.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 pb-5">
+              <div class="card" style="width: 100%">
+                <a
+                  href="https://notdanielrojas.github.io/iguana_page/"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/iguana_page.png"
+                    class="d-block w-100"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Iguana Page</h5>
+                  <p class="card-text">
+                    Desafío en el cual todos los requerimientos fueron cumplidos
+                    de forma satisfactoria.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 pb-5">
+              <div class="card" style="width: 100%">
+                <a
+                  href="https://notdanielrojas.github.io/cuppon/"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/cuppon.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Cuppon</h5>
+                  <p class="card-text">
+                    Desafío en el cual todos los requerimientos fueron cumplidos
+                    de forma satisfactoria.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 pb-5">
+              <div class="card" style="width: 100%">
+                <a
+                  href="https://notdanielrojas.github.io/fdsw-github/"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/github.png"
+                    class="d-block w-100"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Github</h5>
+                  <p class="card-text">
+                    Desafío en el cual todos los requerimientos fueron cumplidos
+                    de forma satisfactoria.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin de Portafolio -->
+      <!-- Comienzo de Formulario -->
+      <section id="form">
+        <div class="container">
+          <div class="row gy-5 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h1 class="titulo-contacto">Contáctame</h1>
+
+              <form>
+                <div class="form-group mb-4">
+                  <label class="mb-2">Nombre</label>
+                  <input class="form-control" placeholder="Nombre" />
+                </div>
+
+                <div class="form-group mb-4">
+                  <label class="mb-2">Correo electrónico</label>
+                  <input
+                    class="form-control"
+                    placeholder="Correo electrónico"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label class="mb-2">Mensaje</label>
+                  <textarea
+                    class="form-control"
+                    placeholder="Escribe aquí tu mensaje"
+                  ></textarea>
+                </div>
+
+                <div class="my-3 text-end">
+                  <button class="btn btn-warning text-dark">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin de formulario -->
+      <!-- Botón de regreso al Inicio -->
+      <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+      >
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+      </button>
+      <!-- Fin de Botón de regreso al Inicio -->
+    </main>
+    <!-- Comiendo de Footer -->
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="iconos-sociales-footer">
+              <a href=""
+                ><i class="fa-brands fa-linkedin" style="color: #f3c03e"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-github" style="color: #f3c03e"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-instagram" style="color: #f3c03e"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-x-twitter" style="color: #f3c03e"></i
+              ></a>
+            </div>
+            Daniel Rojas 2023. Todos los derechos reservados.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin de Footer -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Html */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Color de Texto y color de Fondo Body */
+body {
+  color: white;
+  background-color: #141414;
+}
+/* Encabezado */
+#header {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-color: #141428;
+}
+
+/* Imagen Circular */
+#header img {
+  width: 60%;
+  border-radius: 50%;
+}
+/* Texto Encabezado */
+.header-text {
+  font-size: 2em;
+  padding-top: 1em;
+}
+/* Subtexto Encabezado */
+.subheader-text {
+  font-size: 4em;
+}
+/* Estilo color nombre */
+.subheader-text span {
+  color: #f3c03e;
+}
+
+/* Acerca de Mi */
+#about {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-color: #14143c;
+}
+/* Imagen Circular */
+#about img {
+  border-radius: 50%;
+}
+/* Estilo animación texto menú */
+.menu a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #f3c03e;
+  text-underline-offset: 10px;
+}
+
+/* Tabs de información */
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+/* Estilo lista */
+.mytabs ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+/* Color título listas */
+.mytabs ul li span {
+  color: #f3c03e;
+  font-size: 14px;
+}
+/* Oculta Botones seleccionadores */
+.mytabs input[type="radio"] {
+  display: none;
+}
+/* Títulos pestañas */
+.mytabs label {
+  padding: 25px;
+  font-weight: bold;
+}
+/* Estilo títulos de pestañas */
+.mytabs label:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #f3c03e;
+  text-underline-offset: 10px;
+}
+/* Estilo de contenido de tabs */
+.mytabs .tab {
+  width: 100%;
+  padding: 20px;
+  order: 1;
+  display: none;
+}
+/* Comportamiento lista oculta */
+.mytabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+/* Estilo pasivo tabs lista oculta */
+.mytabs input[type="radio"]:checked + label {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #f3c03e;
+  text-underline-offset: 10px;
+}
+
+/* Portafolio General */
+#portfolio {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-color: #141428;
+}
+/* Características Texto Portafolio */
+.texto-portafolio {
+  padding-bottom: 5em;
+}
+/* Efecto al pasar el cursor en las cards */
+.card:hover {
+  scale: 1.1;
+}
+
+/* Contacto */
+#form {
+  padding-top: 10em;
+  padding-bottom: 5em;
+  background-color: #14143c;
+}
+/* Título de Contacto */
+.titulo-contacto {
+  margin-bottom: 1em;
+}
+
+/* Botón de regreso al inicio */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #f3c03e;
+  color: darkblue;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#btn-back-to-top:hover {
+  background-color: white
+}
+
+
+/* Footer */
+#footer {
+  padding: 1em;
+  text-align: center;
+  background-color: #141414;
+}
+/* Íconos Redes Sociales Footer */
+.iconos-sociales-footer i {
+  margin-right: 16px;
+}
+
