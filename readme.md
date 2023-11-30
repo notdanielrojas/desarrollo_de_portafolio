@@ -15,6 +15,7 @@ A continuación, se presenta un listado de Pull Requests y Forks relacionados co
 ### Listado de Forks
 
 - Dominique Gajardo: [Fork](https://github.com/DomGP/Modulo01_Desafio_06/commit/5d85d5fcf907bdbd30e6859d83ff243417a87455)
+- Alejandro Diaz: [Fork](https://github.com/notdanielrojas/Alejandroidb.github.io/commit/a080072b9e70e30ecaabb9aecee3974a4c5cfcde)
 
 ## Contenido
 
