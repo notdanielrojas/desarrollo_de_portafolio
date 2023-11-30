@@ -137,9 +137,15 @@ body {
   padding-bottom: 5em;
 }
 
+/* Animación cartas original */
+.card {
+  transition: all 0.3s ease;
+}
+
 /* Efecto al pasar el cursor en las cards */
 .card:hover {
-  scale: 1.1;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
 
 /* Contacto */
@@ -171,7 +177,7 @@ body {
 }
 
 #btn-back-to-top:hover {
-  background-color: white
+  background-color: white;
 }
 
 /* Footer */
@@ -185,4 +191,3 @@ body {
 .iconos-sociales-footer i {
   margin-right: 16px;
 }
-
