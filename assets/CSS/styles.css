@@ -16,6 +16,10 @@ body {
   background-color: #141414;
 }
 
+.menu span {
+  color: #f3c03e !important;
+}
+
 /* Encabezado */
 #header {
   padding-top: 10em;
@@ -55,6 +59,10 @@ body {
 /* Imagen Circular */
 #about img {
   border-radius: 50%;
+}
+
+#about span {
+  color: #f3c03e;
 }
 
 /* Estilo animación texto menú */
@@ -132,6 +140,10 @@ body {
   background-color: #141428;
 }
 
+#portfolio span {
+  color: #f3c03e;
+}
+
 /* Características Texto Portafolio */
 .texto-portafolio {
   padding-bottom: 5em;
@@ -153,6 +165,10 @@ body {
   padding-top: 10em;
   padding-bottom: 5em;
   background-color: #14143c;
+}
+
+#form span {
+  color: #f3c03e;
 }
 
 /* Título de Contacto */
