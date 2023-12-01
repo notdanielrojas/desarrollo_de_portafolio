@@ -31,7 +31,6 @@ body {
 #header img {
   width: 50%;
   border-radius: 50%;
-  object-fit: scale-down; max-width: 100%
 }
 
 /* Texto Encabezado */
